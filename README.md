@@ -1,13 +1,15 @@
 Dear Ultramarin Team,
-please enjoy this demo of a rate limiter tester. The back-end is written in python and FastAPI. The front-end is in JS react. 
+please enjoy this demo of a rate limiter tester. The back-end is written in python and FastAPI. The front-end is in JS react and tailwind. 
 
-The animations are added in a tech demo and may or may not be suitable based on the desired audience. All in all it does not not follow a fully fleshed out design language but it should do the trick for the purposes of a take home showcase.
+The animations are added in as a tech demo and may or may not be suitable based on the desired audience. All in all it does not not follow a fully fleshed out design language but it should do the trick for the purposes of a take home showcase.
 The framing headlines, 'lorem ipsum' and the left column are purely decorative. Also the front-end could could be further modularized, linted, tested, etc. - at this point I chose to stop. Let me know if you want to see examples of any of those.
 
 ##Functionality
 
-Adjust the slider to send N requests to the back-end. Click the cogwheel button on the top right to adjust the rate limit.
-The indicator bar is not FULLY synchronized with the back-end in this application in that it will not reset once the rate limiter backoff is reached -- the back-end doesn't provide this functionality but it seemed to make sense to add it for visuals.
+Adjust the slider to send N requests to the back-end. 
+Click the cogwheel button on the top right to adjust the rate limit.
+
+The indicator bar is not FULLY synchronized with the back-end in this application in that it will not reset once the rate limiter backoff is reached -- the back-end doesn't provide this functionality but it seemed to make sense to add it for visuals. So the rate limiter will start accepting requests again but the indicator bar doesnt visually reset.
 
 
 ##Install
