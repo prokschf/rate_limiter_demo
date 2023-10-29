@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  backend:
+    build: 
+      context: ./back-end
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: 
+      context: ./rate-limiter-tester
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_BACKEND_URL=http://backend:5000
+    depends_on:
+      - backend
