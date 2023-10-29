@@ -18,6 +18,8 @@ Run on a device with docker engine:
 
 docker-compose up --build
 
+Go to: Localhost:3000
+
 
 ##Further Work
 
